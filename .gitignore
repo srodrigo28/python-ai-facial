@@ -1,0 +1,96 @@
+# === Arquivos e pastas gerais ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# === Pastas virtuais (venv, env, etc.) ===
+venv/
+env/
+.venv/
+ENV/
+.ENV/
+
+# === Configurações locais / chaves privadas ===
+*.env
+*.secret
+.env.*
+secrets.json
+
+# === Arquivos de build e distribuição ===
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Cache de pacotes ===
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === IDEs e editores ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Arquivos temporários de sistema ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Arquivos de testes ===
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# === Arquivos do Django ===
+*.db
+db.sqlite3
+/staticfiles/
+media/
+staticfiles/
+local_settings.py
+
+# === Arquivos do Jupyter e notebooks ===
+.ipynb_checkpoints
+*.ipynb
+
+# === Docker e containers ===
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# === Arquivos de logs e migrações temporárias ===
+*.log
+logs/
+tmp/
+temp/

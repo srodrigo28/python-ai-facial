@@ -1,4 +1,7 @@
 #### Criando projeto Reconhecimento Facial
+
+<img src="./preview/coleta-faces.png" alt="" />
+
 * verificando a versão do python
 ```
 python --version

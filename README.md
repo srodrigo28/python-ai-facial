@@ -63,5 +63,31 @@ INSTALLED_APPS = [
 python manage.py runserver
 ```
 
+#### 2 migrate
+```
+pip install pillow
+```
+
+```
+python manage.py makemigrations
+```
+* entender a diferenja makemigrations e migrate
+```
+python manage.py migrate
+```
+
+#### Criando usuario django
+```
+python manage.py createsuperuser
+```
+
+#### usuario criado
+rodrigo - 123123
+sebastiao - 123123123
+
+* acesso: http://localhost:8000/admin/
+
 #### comando interessantes
+```
 python manage.py check
+```
